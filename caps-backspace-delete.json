@@ -1,0 +1,20 @@
+{
+    "description": "Hold Caps Lock + Backspace for Delete (Forward Delete)",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "name": "caps_lock_held",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "delete_or_backspace",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "delete_forward" }],
+            "type": "basic"
+        }
+    ]
+}

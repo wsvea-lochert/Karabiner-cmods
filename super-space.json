@@ -1,0 +1,25 @@
+{
+    "description": "Hold Caps + Space → Shift+Control+Option+Command+Space",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "name": "caps_lock_held",
+                    "type": "variable_if",
+                    "value": 1
+                }
+            ],
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "spacebar",
+                    "modifiers": ["left_shift", "left_control", "left_option", "left_command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
