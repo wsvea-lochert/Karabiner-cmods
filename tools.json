@@ -1,0 +1,40 @@
+{
+    "tools": [
+        {
+            "name": "Stats",
+            "url": "https://github.com/exelban/stats"
+        },
+        {
+            "name": "AltTab",
+            "url": "https://github.com/lwouis/alt-tab-macos"
+        },
+        {
+            "name": "Raycast",
+            "url": "https://www.raycast.com/"
+        },
+        {
+            "name": "TypeWhisperer",
+            "url": "https://www.typewhisper.com/en/"
+        },
+        {
+            "name": "1Password",
+            "url": "https://1password.com/"
+        },
+        {
+            "name": "cmux",
+            "url": "https://cmux.com"
+        },
+        {
+            "name": "flux-markdown",
+            "url": "https://github.com/xykong/flux-markdown"
+        },
+        {
+            "name": "t3code",
+            "url": "https://github.com/pingdotgg/t3code"
+        },
+        {
+            "name": "GitButler",
+            "url": "https://gitbutler.com/"
+        }
+    ]
+}
