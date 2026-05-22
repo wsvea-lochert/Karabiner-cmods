@@ -11,3 +11,4 @@ Hold Caps Lock + Backspace for forward delete. Useful on compact keyboards that 
 
 ### super-space
 Hold Caps Lock + Space to emit Shift+Control+Option+Command+Space (hyper key + space). This provides a global hotkey that won't conflict with any application shortcut.
+ge
